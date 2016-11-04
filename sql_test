@@ -1,0 +1,5 @@
+Postgresql 区分大小写
+select csl from ngcuteuser where cil = 'tingting hong'
+select csl from ngcuteuser where cil ilike 'tingting hong'
+select csl from ngcuteuser where cil ~ 'tingting hong'
+select csl from ngcuteuser where cil ~* 'tingting hong'
